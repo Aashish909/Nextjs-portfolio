@@ -1,10 +1,10 @@
-'use client'
+"use client";
 
-import Link from 'next/link';
-import Image from 'next/image';
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
-import { motion } from 'framer-motion';
-import { fadeInUp, fadeIn, scaleIn } from '@/utils/animations';
+import Link from "next/link";
+import Image from "next/image";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { motion } from "framer-motion";
+import { fadeInUp, fadeIn, scaleIn } from "@/utils/animations";
 import { MdOutlineArrowOutward } from "react-icons/md";
 
 export default function Hero() {
@@ -101,4 +101,4 @@ export default function Hero() {
       </div>
     </section>
   );
-} 
+}
